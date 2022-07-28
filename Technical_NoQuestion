@@ -1,0 +1,16 @@
+mkdir ARDIKA
+cd ARDIKA
+mkdir Sekolah
+mkdir Kerja
+cd Sekolah
+touch Ijazah.txt
+nano Ijazah.txt
+cat Ijazah.txt
+touch Portofolio.txt
+nano Portofolio.txt
+cd ..
+cd Kerja
+touch CV.txt
+nano CV.txt
+cat CV.txt
+mv Sekolah/Portofolio.txt Kerja
